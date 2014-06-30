@@ -1,2 +1,2 @@
-nicholas.gonzalez@yale.edu
+nicholas.gonzalez@yale.edu,
 froriz50@gatech.edu
