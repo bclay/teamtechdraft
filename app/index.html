@@ -25,7 +25,9 @@
       function displayProfiles(profiles) {
         member = profiles.values[0];
         document.getElementById("profiles").innerHTML = 
-          "<p id=\"" + member.id + "\">Name: " +  member.firstName + " " + member.lastName + "</p>";
+          "<p id=\"" + member.id + "\">Name: " +  member.firstName + " " + member.lastName + "</p>"+
+          "<p>Title: "+member.headline+"</p>";
+          
       }
     </script>
   </head>
