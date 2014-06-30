@@ -8,6 +8,10 @@ print '*Found %s results*'%(g.get_result_count())
 urls = g.get_urls()
 for index in range(15):
 	print 'URL: ', urls[index]
+	if "linkedin.com" in urls[index]:
+		print "LinkedIn: %s"%urls[index]
+
+
 	
 
 
